@@ -1,40 +1,8 @@
 """Интерактивный чат в терминале: RAG + LLM, вывод ответа по словам."""
 
-import re
-
+from format_answer import format_pretty_answer
 from rag import init_rag, rag_pipeline
 from llm import load_llm, llm_generate_stream
-
-
-def _print_pretty_answer(text: str) -> None:
-    """Форматирование ответа LLM для терминала: артефакты PDF, код-блоки, заголовки."""
-    s = (text or "").strip()
-    if not s:
-        return
-    s = re.sub(r"<image:[^>]*>", "", s)
-    s = re.sub(r"``", "", s)
-    for lang in ("bash", "plaintext"):
-        s = re.sub(rf"`{lang}\s*\n\s*(hostname#[^\n]+)\s*\n\s*`", r"\n```bash\n\1\n```\n\n", s)
-        s = re.sub(rf"`{lang}\s*\n\s*(hostname#[^\n]+)\s*\n\s+(?=[A-ZА-Я])", r"\n```bash\n\1\n```\n\n", s)
-        s = re.sub(rf"`{lang} (hostname#[^`]*?)\s*`", r"\n```bash\n\1\n```\n\n", s)
-        s = re.sub(rf"`{lang} (hostname#[^`]*?)\s{{2,}}(?=[A-ZА-Я])", r"\n```bash\n\1\n```\n\n", s)
-    s = re.sub(r"```(\w+)\s+([^\n`]+)", r"```\1\n\2", s)
-    s = re.sub(r"([^\n])```", r"\1\n```", s)
-    s = re.sub(r"```(?!\w)\s+", r"```\n\n", s)
-    s = re.sub(r"([^\n])(###\s+)", r"\1\n\n\2", s)
-    s = re.sub(r"([^\n])(####\s+)", r"\1\n\n\2", s)
-    s = re.sub(r"(###\s+[^\n#]+?)\s*#\s*(\n|$)", r"\1\2", s)
-    s = re.sub(r"\n\s*#\s*\n", "\n\n", s)
-    s = re.sub(r"\s+#\s*(\n|$)", r"\1", s)
-    s = re.sub(r"(###\s+[^\n]+?)(\d+\.\s+\*\*)", r"\1\n\n\2", s)
-    s = re.sub(r"([.!?])\s+(\d+\.\s+\*\*)", r"\1\n\n\2", s)
-    s = re.sub(r"(\*\*)\s+(\d+\.\s+\*\*)", r"\1\n\n\2", s)
-    s = re.sub(r"`\s+(\d+\.\s+\*\*)", r"`\n\n\1", s)
-    s = re.sub(r"([^\n])\s+(- \*\*)", r"\1\n\n\2", s)
-    s = re.sub(r"([:.\)*])\s+(1\.\s+)", r"\1\n\n\2", s)
-    s = re.sub(r"^тройка DNS-сервера\b", "### Настройка DNS-сервера", s, flags=re.MULTILINE)
-    lines = [ln.rstrip() for ln in s.splitlines()]
-    print("\n".join(lines).strip())
 
 
 def run_chat():
@@ -61,7 +29,7 @@ def run_chat():
         if not answer_text:
             print("(Модель не вернула текст. Возможны ограничения API, длина промпта или ошибка разбора ответа.)")
         else:
-            _print_pretty_answer(answer_text)
+            print(format_pretty_answer(answer_text))
         if answer_text and "источники" not in answer_text.lower():
             print("\nИсточники:")
             seen = set()
@@ -69,7 +37,7 @@ def run_chat():
                 doc = c.get("doc_name", c.get("doc", ""))
                 ch = c.get("chapter_title", "")
                 sid = c.get("section_id", "")
-                key = (doc, ch, c.get("section", ""), sid)
+                key = (doc, ch, sid)
                 if key in seen:
                     continue
                 seen.add(key)

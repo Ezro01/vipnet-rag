@@ -7,12 +7,11 @@ from pydantic import BaseModel
 
 
 def _sources_from_chunks(top_chunks: list) -> list:
-    """Список источников из top_chunks для ответа API."""
+    """Список источников из top_chunks для ответа API: doc, chapter, section_id (без section)."""
     return [
         {
             "doc": c.get("doc_name", c.get("doc", "")),
             "chapter": c.get("chapter_title", ""),
-            "section": c.get("section", ""),
             "section_id": c.get("section_id", ""),
         }
         for c in top_chunks
@@ -180,8 +179,10 @@ def ask(req: AskRequest):
         raise HTTPException(status_code=503, detail=f"RAG/LLM not available: {e}")
 
     try:
+        from format_answer import format_pretty_answer
         _, top_chunks, prompt = rag_pipeline(question, top_k_retrieve=30, top_k_rerank=5, mode="chat")
         answer = llm_generate(prompt)
+        answer = format_pretty_answer(answer or "")
         return AskResponse(answer=answer, sources=_sources_from_chunks(top_chunks))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
