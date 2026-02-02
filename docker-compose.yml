@@ -1,0 +1,33 @@
+# RAG API по документации ViPNet Coordinator HW
+# Запуск: docker compose up --build
+# Перед первым запуском: cp .env.example .env и заполните YANDEX_CLOUD_FOLDER, YANDEX_CLOUD_API_KEY
+#
+# Данные не теряются: ./data смонтирован в /app/data. Если dataset.json, embeddings.npy,
+# faiss.index и bm25_corpus.json уже есть в ./data — они подхватятся, предобработка заново не запускается.
+# Чтобы добавить свою папку с PDF: смонтируйте её, например ./docs:/app/data/docs,
+# затем POST /preprocess/parse с body {"input_dir": "data/docs"}, затем POST /preprocess/index.
+
+name: vipnet-rag
+
+services:
+  api:
+    build: .
+    container_name: vipnet-rag-api
+    env_file: .env
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      # Все данные RAG (dataset.json, эмбеддинги, FAISS, BM25) — сохраняются на хосте
+      - ./data:/app/data
+      # Опционально: папка с PDF для парсинга (POST /preprocess/parse {"input_dir": "data/docs"})
+      # - ./docs:/app/data/docs
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s

@@ -1,0 +1,898 @@
+[
+  {
+    "question": "Как метрика адреса доступа влияет на прикладную квитанцию и приоритет использования каналов связи?",
+    "answer": "Метрика адреса доступа Определяет задержку (в миллисекундах) отправки тестовых пакетов при выполнении опроса узла для определения доступности адреса.",
+    "relevant_chunk_ids": [
+      "04_35_1826"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Как параметры доступа влияют на качество прикладных запросов и распределение трафика?",
+    "answer": "Метрика адреса доступа Определяет задержку (в миллисекундах) отправки тестовых пакетов при выполнении опроса узла для определения доступности адреса.",
+    "relevant_chunk_ids": [
+      "04_35_1826"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Как IP-метрики влияют на приложения и скорость передачи данных?",
+    "answer": "Метрика адреса доступа Определяет задержку (в миллисекундах) отправки тестовых пакетов при выполнении опроса узла для определения доступности адреса.",
+    "relevant_chunk_ids": [
+      "04_35_1826"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как настроить приоритеты для разных сервисов, используя метрики адресов?",
+    "answer": "Метрика адреса доступа Определяет задержку (в миллисекундах) отправки тестовых пакетов при выполнении опроса узла для определения доступности адреса.",
+    "relevant_chunk_ids": [
+      "04_35_1826"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Почему IP-адрес интерфейса не должен входить в диапазон IP-адресов этого интерфейса?",
+    "answer": "interface <имя интерфейса> Диапазон IP-адресов должен принадлежать сети интерфейса.",
+    "relevant_chunk_ids": [
+      "02_39_0644"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "Почему нельзя использовать адрес интерфейса для его самого?",
+    "answer": "interface <имя интерфейса> Диапазон IP-адресов должен принадлежать сети интерфейса.",
+    "relevant_chunk_ids": [
+      "02_39_0644"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Почему IP-адрес нельзя ставить в тот же диапазон что и сам интерфейс?",
+    "answer": "interface <имя интерфейса> Диапазон IP-адресов должен принадлежать сети интерфейса.",
+    "relevant_chunk_ids": [
+      "02_39_0644"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Как настроить интерфейс, если нельзя использовать его же IP-адрес?",
+    "answer": "interface <имя интерфейса> Диапазон IP-адресов должен принадлежать сети интерфейса.",
+    "relevant_chunk_ids": [
+      "02_39_0644"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие действия необходимо предпринять при отсутствии связей ViPNet Coordinator HW с другими координаторами сети ViPNet?",
+    "answer": "Если в устанавливаемых справочниках не будут обнаружены связи ViPNet Coordinator HW с другими координаторами сети ViPNet, появится сообщение Your VPN host has no links with VPN coordinators.",
+    "relevant_chunk_ids": [
+      "01_36_0205"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какие шаги следует выполнить при недостатке соединений между ViPNet Coordinator HW и другими координаторами сети ViPNet?",
+    "answer": "Если в устанавливаемых справочниках не будут обнаружены связи ViPNet Coordinator HW с другими координаторами сети ViPNet, появится сообщение Your VPN host has no links with VPN coordinators.",
+    "relevant_chunk_ids": [
+      "01_36_0205"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чё делать, если ViPNet Coordinator HW не видит других координаторов сети ViPNet?",
+    "answer": "Если в устанавливаемых справочниках не будут обнаружены связи ViPNet Coordinator HW с другими координаторами сети ViPNet, появится сообщение Your VPN host has no links with VPN coordinators.",
+    "relevant_chunk_ids": [
+      "01_36_0205"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как настроить связь между ViPNet Coordinator HW и другими координаторами сети ViPNet, чтобы избежать отрыва?",
+    "answer": "Если в устанавливаемых справочниках не будут обнаружены связи ViPNet Coordinator HW с другими координаторами сети ViPNet, появится сообщение Your VPN host has no links with VPN coordinators.",
+    "relevant_chunk_ids": [
+      "01_36_0205"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие номера телефонов доступны для клиентов с расширенной поддержкой?",
+    "answer": "Настройка с помощью веб-интерфейса | 12 Обратная связь Контактная информация  Единый многоканальный телефон: +7 (495) 737-6192, 8 (800) 250-0-260 — бесплатный звонок из России (кроме Москвы).",
+    "relevant_chunk_ids": [
+      "03_3_0004"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "Какие контактные номера предоставляются с расширенной поддержкой клиентам?",
+    "answer": "Настройка с помощью веб-интерфейса | 12 Обратная связь Контактная информация  Единый многоканальный телефон: +7 (495) 737-6192, 8 (800) 250-0-260 — бесплатный звонок из России (кроме Москвы).",
+    "relevant_chunk_ids": [
+      "03_3_0004"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Кто может связаться с поддержкой по специальным номерам?",
+    "answer": "Настройка с помощью веб-интерфейса | 12 Обратная связь Контактная информация  Единый многоканальный телефон: +7 (495) 737-6192, 8 (800) 250-0-260 — бесплатный звонок из России (кроме Москвы).",
+    "relevant_chunk_ids": [
+      "03_3_0004"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Помогите мне найти номера для получения расширенной поддержки.",
+    "answer": "Настройка с помощью веб-интерфейса | 12 Обратная связь Контактная информация  Единый многоканальный телефон: +7 (495) 737-6192, 8 (800) 250-0-260 — бесплатный звонок из России (кроме Москвы).",
+    "relevant_chunk_ids": [
+      "03_3_0004"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие значения статуса строки таблицы соответствуют процессу создания и активации записи?",
+    "answer": "B Статус строки таблицы:  1 (active) — строка доступна для использования,  2 (notInService) — строка недоступна для использования,  3 (notReady) — отсутствует информация для использования,  4 (createAndGo) — создание строки и перевод ее в статус active,  5 (createAndWait) — создание строки и перевод ее в статус notInService,  6 (destroy) — удаление.",
+    "relevant_chunk_ids": [
+      "02_39_1738"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какие состояния строки в таблице отражают процесс создания и включения записи?",
+    "answer": "B Статус строки таблицы:  1 (active) — строка доступна для использования,  2 (notInService) — строка недоступна для использования,  3 (notReady) — отсутствует информация для использования,  4 (createAndGo) — создание строки и перевод ее в статус active,  5 (createAndWait) — создание строки и перевод ее в статус notInService,  6 (destroy) — удаление.",
+    "relevant_chunk_ids": [
+      "02_39_1738"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чему равны статусы строки при создании и запуске записи?",
+    "answer": "B Статус строки таблицы:  1 (active) — строка доступна для использования,  2 (notInService) — строка недоступна для использования,  3 (notReady) — отсутствует информация для использования,  4 (createAndGo) — создание строки и перевод ее в статус active,  5 (createAndWait) — создание строки и перевод ее в статус notInService,  6 (destroy) — удаление.",
+    "relevant_chunk_ids": [
+      "02_39_1738"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Какие коды статуса строки таблицы показывают, что запись создается и активируется?",
+    "answer": "B Статус строки таблицы:  1 (active) — строка доступна для использования,  2 (notInService) — строка недоступна для использования,  3 (notReady) — отсутствует информация для использования,  4 (createAndGo) — создание строки и перевод ее в статус active,  5 (createAndWait) — создание строки и перевод ее в статус notInService,  6 (destroy) — удаление.",
+    "relevant_chunk_ids": [
+      "02_39_1738"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие конкретные объекты включены в MIB-II System и что они отражают о сетевом узле?",
+    "answer": "Настройка с помощью командного интерпретатора | 389 <image: DeviceRGB, width: 795, height: 303, bpc: 8> E Базы управляющей информации (MIB) для протокола SNMP MIB-II System MIB-II System (.1.3.6.1.2.1.1) включает в себя объекты, предназначенные для получения информации о системных параметрах сетевого узла (например, имя узла, ОС, количество и параметры сетевых интерфейсов, статистика по SNMP-сообщениям).",
+    "relevant_chunk_ids": [
+      "02_39_1560"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) В чем состоит точное содержание MIB-II System и какие данные он предоставляет о сетевом узле?",
+    "answer": "Настройка с помощью командного интерпретатора | 389 <image: DeviceRGB, width: 795, height: 303, bpc: 8> E Базы управляющей информации (MIB) для протокола SNMP MIB-II System MIB-II System (.1.3.6.1.2.1.1) включает в себя объекты, предназначенные для получения информации о системных параметрах сетевого узла (например, имя узла, ОС, количество и параметры сетевых интерфейсов, статистика по SNMP-сообщениям).",
+    "relevant_chunk_ids": [
+      "02_39_1560"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чем конкретно заполнен MIB-II System и какая информация о сетевом узле в нем заключена?",
+    "answer": "Настройка с помощью командного интерпретатора | 389 <image: DeviceRGB, width: 795, height: 303, bpc: 8> E Базы управляющей информации (MIB) для протокола SNMP MIB-II System MIB-II System (.1.3.6.1.2.1.1) включает в себя объекты, предназначенные для получения информации о системных параметрах сетевого узла (например, имя узла, ОС, количество и параметры сетевых интерфейсов, статистика по SNMP-сообщениям).",
+    "relevant_chunk_ids": [
+      "02_39_1560"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Какие элементы нужно проверить в MIB-II System для понимания состояния сетевого узла?",
+    "answer": "Настройка с помощью командного интерпретатора | 389 <image: DeviceRGB, width: 795, height: 303, bpc: 8> E Базы управляющей информации (MIB) для протокола SNMP MIB-II System MIB-II System (.1.3.6.1.2.1.1) включает в себя объекты, предназначенные для получения информации о системных параметрах сетевого узла (например, имя узла, ОС, количество и параметры сетевых интерфейсов, статистика по SNMP-сообщениям).",
+    "relevant_chunk_ids": [
+      "02_39_1560"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Как задать параметры локального сегмента сети для дополнительных ViPNet Coordinator HW при количестве сегментов более двух?",
+    "answer": "2 Задайте параметры локального сегмента сети, указав уникальный номер порта и адрес внешнего интерфейса: o HW-1: hostname# iplir set l2overip local-port 1 82.16.10.10 o HW-2: hostname# iplir set l2overip local-port 2 82.16.10.",
+    "relevant_chunk_ids": [
+      "02_39_0875"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Как настроить параметры локального сетевого сегмента для дополнительных устройств ViPNet Coordinator HW при наличии более двух сегментов?",
+    "answer": "2 Задайте параметры локального сегмента сети, указав уникальный номер порта и адрес внешнего интерфейса: o HW-1: hostname# iplir set l2overip local-port 1 82.16.10.10 o HW-2: hostname# iplir set l2overip local-port 2 82.16.10.",
+    "relevant_chunk_ids": [
+      "02_39_0875"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Как задать сетевые параметры локальным сегментам в ViPNet Coordinator HW, если их больше двух?",
+    "answer": "2 Задайте параметры локального сегмента сети, указав уникальный номер порта и адрес внешнего интерфейса: o HW-1: hostname# iplir set l2overip local-port 1 82.16.10.10 o HW-2: hostname# iplir set l2overip local-port 2 82.16.10.",
+    "relevant_chunk_ids": [
+      "02_39_0875"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) У меня больше двух сегментов, как правильно настроить сетевые параметры в ViPNet Coordinator HW?",
+    "answer": "2 Задайте параметры локального сегмента сети, указав уникальный номер порта и адрес внешнего интерфейса: o HW-1: hostname# iplir set l2overip local-port 1 82.16.10.10 o HW-2: hostname# iplir set l2overip local-port 2 82.16.10.",
+    "relevant_chunk_ids": [
+      "02_39_0875"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "В каких случаях рекомендуется размещать ViPNet Coordinator HW внутри защищенного периметра вместо использования сервера для передачи медиапотоков и согласования параметров связи?",
+    "answer": "На ViPNet Coordinator HW, установленном на границе защищаемой сети, рекомендуется использовать передачу медиапотоков и согласование параметров связи через сервер.",
+    "relevant_chunk_ids": [
+      "02_39_0571"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) В каких ситуациях лучше разместить устройство внутри защищенного периметра для обработки медиапотоков?",
+    "answer": "На ViPNet Coordinator HW, установленном на границе защищаемой сети, рекомендуется использовать передачу медиапотоков и согласование параметров связи через сервер.",
+    "relevant_chunk_ids": [
+      "02_39_0571"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) При чём тут сервер, если можно всё сделать в защищёнке?",
+    "answer": "На ViPNet Coordinator HW, установленном на границе защищаемой сети, рекомендуется использовать передачу медиапотоков и согласование параметров связи через сервер.",
+    "relevant_chunk_ids": [
+      "02_39_0571"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как решить проблему передачи потоков, не используя внешний сервер?",
+    "answer": "На ViPNet Coordinator HW, установленном на границе защищаемой сети, рекомендуется использовать передачу медиапотоков и согласование параметров связи через сервер.",
+    "relevant_chunk_ids": [
+      "02_39_0571"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие группы динамических интерфейсов можно указать при использовании команды iplir show config?",
+    "answer": " <группа интерфейсов> — имя группы динамических интерфейсов, файл конфигурации которой требуется просмотреть: o ppp — группа интерфейсов для подключения к мобильной сети через встроенный модем; o wifi — группа интерфейсов для подключения к беспроводной сети Wi-Fi.",
+    "relevant_chunk_ids": [
+      "04_35_1055"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какие динамические интерфейсы можно просмотреть с помощью команды iplir show config?",
+    "answer": " <группа интерфейсов> — имя группы динамических интерфейсов, файл конфигурации которой требуется просмотреть: o ppp — группа интерфейсов для подключения к мобильной сети через встроенный модем; o wifi — группа интерфейсов для подключения к беспроводной сети Wi-Fi.",
+    "relevant_chunk_ids": [
+      "04_35_1055"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чему равны динам-интерфейсы в iplir show config?",
+    "answer": " <группа интерфейсов> — имя группы динамических интерфейсов, файл конфигурации которой требуется просмотреть: o ppp — группа интерфейсов для подключения к мобильной сети через встроенный модем; o wifi — группа интерфейсов для подключения к беспроводной сети Wi-Fi.",
+    "relevant_chunk_ids": [
+      "04_35_1055"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как получить список динамических интерфейсов с помощью iplir show config?",
+    "answer": " <группа интерфейсов> — имя группы динамических интерфейсов, файл конфигурации которой требуется просмотреть: o ppp — группа интерфейсов для подключения к мобильной сети через встроенный модем; o wifi — группа интерфейсов для подключения к беспроводной сети Wi-Fi.",
+    "relevant_chunk_ids": [
+      "04_35_1055"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какое действие будет выполнено при указании только части параметров для поиска сетевых фильтров?",
+    "answer": "Например, для удаления локальных фильтров открытой сети с адресом отправителя 192.168.20.2: hostname# firewall local delete src 192.168.20.2 <image: DeviceRGB, width: 39, height: 39, bpc: 8> Внимание!",
+    "relevant_chunk_ids": [
+      "02_39_0444"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Как система будет реагировать, если будут указаны только некоторые параметры при поиске сетевых фильтров?",
+    "answer": "Например, для удаления локальных фильтров открытой сети с адресом отправителя 192.168.20.2: hostname# firewall local delete src 192.168.20.2 <image: DeviceRGB, width: 39, height: 39, bpc: 8> Внимание!",
+    "relevant_chunk_ids": [
+      "02_39_0444"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чем закончится попытка найти фильтры, указав только часть данных?",
+    "answer": "Например, для удаления локальных фильтров открытой сети с адресом отправителя 192.168.20.2: hostname# firewall local delete src 192.168.20.2 <image: DeviceRGB, width: 39, height: 39, bpc: 8> Внимание!",
+    "relevant_chunk_ids": [
+      "02_39_0444"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как действовать, если не все параметры доступны при поиске сетевых правил?",
+    "answer": "Например, для удаления локальных фильтров открытой сети с адресом отправителя 192.168.20.2: hostname# firewall local delete src 192.168.20.2 <image: DeviceRGB, width: 39, height: 39, bpc: 8> Внимание!",
+    "relevant_chunk_ids": [
+      "02_39_0444"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какое значение параметра <период> может быть максимальным в сравнении с временем жизни кеша пользовательских сессий?",
+    "answer": "Синтаксис service user-control ad set controller sync-delay <период> Параметры и ключевые слова <период> — период получения журнала контроллера домена Active Directory, целое число в секундах.",
+    "relevant_chunk_ids": [
+      "04_35_1425"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какой максимум может принимать значение параметра период по отношению к TTL сессий?",
+    "answer": "Синтаксис service user-control ad set controller sync-delay <период> Параметры и ключевые слова <период> — период получения журнала контроллера домена Active Directory, целое число в секундах.",
+    "relevant_chunk_ids": [
+      "04_35_1425"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чему может равняться период в сравнении с TTL сессий?",
+    "answer": "Синтаксис service user-control ad set controller sync-delay <период> Параметры и ключевые слова <период> — период получения журнала контроллера домена Active Directory, целое число в секундах.",
+    "relevant_chunk_ids": [
+      "04_35_1425"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как настроить период больше TTL сессий для стабильной работы системы?",
+    "answer": "Синтаксис service user-control ad set controller sync-delay <период> Параметры и ключевые слова <период> — период получения журнала контроллера домена Active Directory, целое число в секундах.",
+    "relevant_chunk_ids": [
+      "04_35_1425"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие функции выполняет ViPNet-клиент в отличие от координатора?",
+    "answer": "Клиент (ViPNet-клиент) Сетевой узел ViPNet, который является начальной или конечной точкой передачи данных.",
+    "relevant_chunk_ids": [
+      "01_36_0261"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) В чем заключаются особенности работы ViPNet-клиента по сравнению с координатором?",
+    "answer": "Клиент (ViPNet-клиент) Сетевой узел ViPNet, который является начальной или конечной точкой передачи данных.",
+    "relevant_chunk_ids": [
+      "01_36_0261"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чем ViPNet-клиент отличается от координатора?",
+    "answer": "Клиент (ViPNet-клиент) Сетевой узел ViPNet, который является начальной или конечной точкой передачи данных.",
+    "relevant_chunk_ids": [
+      "01_36_0261"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как настроить ViPNet-клиент, чтобы он работал не как координатор?",
+    "answer": "Клиент (ViPNet-клиент) Сетевой узел ViPNet, который является начальной или конечной точкой передачи данных.",
+    "relevant_chunk_ids": [
+      "01_36_0261"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какая учетная запись используется для аутентификации при подключении к ViPNet Coordinator HW?",
+    "answer": "Подготовка к работе | 93 После инициализации 1 Подключитесь к ViPNet Coordinator HW (ViPNet Coordinator VA) с помощью командного интерпретатора.",
+    "relevant_chunk_ids": [
+      "01_36_0245"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какой пользовательский аккаунт требуется для входа в систему на ViPNet Coordinator HW?",
+    "answer": "Подготовка к работе | 93 После инициализации 1 Подключитесь к ViPNet Coordinator HW (ViPNet Coordinator VA) с помощью командного интерпретатора.",
+    "relevant_chunk_ids": [
+      "01_36_0245"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Для логина на ViPNet Coordinator HW нужен какой профиль?",
+    "answer": "Подготовка к работе | 93 После инициализации 1 Подключитесь к ViPNet Coordinator HW (ViPNet Coordinator VA) с помощью командного интерпретатора.",
+    "relevant_chunk_ids": [
+      "01_36_0245"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как авторизоваться в ViPNet Coordinator HW?",
+    "answer": "Подготовка к работе | 93 После инициализации 1 Подключитесь к ViPNet Coordinator HW (ViPNet Coordinator VA) с помощью командного интерпретатора.",
+    "relevant_chunk_ids": [
+      "01_36_0245"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие параметры необходимо указывать при использовании команды firewall nat change append для изменения правил трансляции сетевых адресов?",
+    "answer": "Изменение и удаление правил трансляции сетевых адресов выполняется аналогично изменению и удалению сетевых фильтров: hostname# firewall nat change append <номер> <параметры> hostname# firewall nat delete <параметры> Подробнее см.",
+    "relevant_chunk_ids": [
+      "02_39_0499"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какие настройки нужно вводить при изменении правил NAT с помощью команды firewall nat change append?",
+    "answer": "Изменение и удаление правил трансляции сетевых адресов выполняется аналогично изменению и удалению сетевых фильтров: hostname# firewall nat change append <номер> <параметры> hostname# firewall nat delete <параметры> Подробнее см.",
+    "relevant_chunk_ids": [
+      "02_39_0499"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чему равны параметры при добавлении правил NAT через команду firewall nat change append?",
+    "answer": "Изменение и удаление правил трансляции сетевых адресов выполняется аналогично изменению и удалению сетевых фильтров: hostname# firewall nat change append <номер> <параметры> hostname# firewall nat delete <параметры> Подробнее см.",
+    "relevant_chunk_ids": [
+      "02_39_0499"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как правильно использовать команду firewall nat change append для редактирования правил NAT?",
+    "answer": "Изменение и удаление правил трансляции сетевых адресов выполняется аналогично изменению и удалению сетевых фильтров: hostname# firewall nat change append <номер> <параметры> hostname# firewall nat delete <параметры> Подробнее см.",
+    "relevant_chunk_ids": [
+      "02_39_0499"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие значения параметров testip из failover режима кластера используются в локальных фильтрах открытой сети?",
+    "answer": "Локальные фильтры открытой сети (local) Название Источник Назначение Протокол Действие Служебные фильтры в режиме кластера Failover test IP @local <список значений параметров testip из failover.",
+    "relevant_chunk_ids": [
+      "02_39_1523"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) В каком виде используются IP-адреса для тестирования в режиме переключения между кластерами при настройке локальных фильтров?",
+    "answer": "Локальные фильтры открытой сети (local) Название Источник Назначение Протокол Действие Служебные фильтры в режиме кластера Failover test IP @local <список значений параметров testip из failover.",
+    "relevant_chunk_ids": [
+      "02_39_1523"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Тест-IP в failover что они там для фильтров делают?",
+    "answer": "Локальные фильтры открытой сети (local) Название Источник Назначение Протокол Действие Служебные фильтры в режиме кластера Failover test IP @local <список значений параметров testip из failover.",
+    "relevant_chunk_ids": [
+      "02_39_1523"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Можно ли использовать IP-адреса из failover для настройки открытых сетевых фильтров?",
+    "answer": "Локальные фильтры открытой сети (local) Название Источник Назначение Протокол Действие Служебные фильтры в режиме кластера Failover test IP @local <список значений параметров testip из failover.",
+    "relevant_chunk_ids": [
+      "02_39_1523"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какой значение параметра указывает на неизвестный режим дуплекса для интерфейса?",
+    "answer": ".1.3.6.1.2.1.10.7.2.1.19.A Текущей режим дуплекса на интерфейсе:  1 — unknown,  2 — halfDuplex,  3 — fullDuplex.",
+    "relevant_chunk_ids": [
+      "02_39_1637"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какое значение параметра показывает, что режим дуплекса для интерфейса определен не был?",
+    "answer": ".1.3.6.1.2.1.10.7.2.1.19.A Текущей режим дуплекса на интерфейсе:  1 — unknown,  2 — halfDuplex,  3 — fullDuplex.",
+    "relevant_chunk_ids": [
+      "02_39_1637"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чему равно значение параметра, если дуплекс не задан?",
+    "answer": ".1.3.6.1.2.1.10.7.2.1.19.A Текущей режим дуплекса на интерфейсе:  1 — unknown,  2 — halfDuplex,  3 — fullDuplex.",
+    "relevant_chunk_ids": [
+      "02_39_1637"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как узнать, что режим дуплекса не установлен для интерфейса?",
+    "answer": ".1.3.6.1.2.1.10.7.2.1.19.A Текущей режим дуплекса на интерфейсе:  1 — unknown,  2 — halfDuplex,  3 — fullDuplex.",
+    "relevant_chunk_ids": [
+      "02_39_1637"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие значения может принимать параметр <string> при использовании команды set as-path-prepend?",
+    "answer": "Синтаксис inet route-map <name> <seq> set as-path-prepend <string> Параметры и ключевые слова  <name> — имя карты маршрутов;  <seq> — номер блока в карте маршрутов;  <string> — строка текста, содержащая номера автономных систем.",
+    "relevant_chunk_ids": [
+      "04_35_0727"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какие опции доступны для параметра <string> в команде set as-path-prepend?",
+    "answer": "Синтаксис inet route-map <name> <seq> set as-path-prepend <string> Параметры и ключевые слова  <name> — имя карты маршрутов;  <seq> — номер блока в карте маршрутов;  <string> — строка текста, содержащая номера автономных систем.",
+    "relevant_chunk_ids": [
+      "04_35_0727"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Что можно ввести вместо <string> в set as-path-prepend?",
+    "answer": "Синтаксис inet route-map <name> <seq> set as-path-prepend <string> Параметры и ключевые слова  <name> — имя карты маршрутов;  <seq> — номер блока в карте маршрутов;  <string> — строка текста, содержащая номера автономных систем.",
+    "relevant_chunk_ids": [
+      "04_35_0727"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как настроить префикс AS используя set as-path-prepend?",
+    "answer": "Синтаксис inet route-map <name> <seq> set as-path-prepend <string> Параметры и ключевые слова  <name> — имя карты маршрутов;  <seq> — номер блока в карте маршрутов;  <string> — строка текста, содержащая номера автономных систем.",
+    "relevant_chunk_ids": [
+      "04_35_0727"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какая максимальная версия ПО ViPNet Coordinator HW поддерживается текущей лицензией?",
+    "answer": " Время окончания действия объекта лицензирования в формате YYYY-MM-DD HH:MM:SS.",
+    "relevant_chunk_ids": [
+      "04_35_1519"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "Какая самая новая версия программного обеспечения ViPNet Coordinator HW совместима с моей текущей лицензией?",
+    "answer": " Время окончания действия объекта лицензирования в формате YYYY-MM-DD HH:MM:SS.",
+    "relevant_chunk_ids": [
+      "04_35_1519"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какая версия ПО ViPNet Coordinator HW входит в мою текущую лицензию?",
+    "answer": " Время окончания действия объекта лицензирования в формате YYYY-MM-DD HH:MM:SS.",
+    "relevant_chunk_ids": [
+      "04_35_1519"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Могу я обновить до последней версии ПО ViPNet Coordinator HW, используя свою текущую лицензию?",
+    "answer": " Время окончания действия объекта лицензирования в формате YYYY-MM-DD HH:MM:SS.",
+    "relevant_chunk_ids": [
+      "04_35_1519"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Как можно просмотреть полное имя файла, если оно отображается не полностью в списке?",
+    "answer": "Чтобы просмотреть полное имя, выберите файл в списке — его имя будет отображено под окном мастера.",
+    "relevant_chunk_ids": [
+      "01_36_0218"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Как получить полное название файла, когда его часть скрыта в списке файлов?",
+    "answer": "Чтобы просмотреть полное имя, выберите файл в списке — его имя будет отображено под окном мастера.",
+    "relevant_chunk_ids": [
+      "01_36_0218"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Как досмотреть имя файла, когда его часть пропадает в списке?",
+    "answer": "Чтобы просмотреть полное имя, выберите файл в списке — его имя будет отображено под окном мастера.",
+    "relevant_chunk_ids": [
+      "01_36_0218"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Не могу увидеть всю строку имени файла в списке, что делать?",
+    "answer": "Чтобы просмотреть полное имя, выберите файл в списке — его имя будет отображено под окном мастера.",
+    "relevant_chunk_ids": [
+      "01_36_0218"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Каким образом можно включить или выключить перезагрузку ViPNet Coordinator HW по расписанию?",
+    "answer": "Справочник команд и конфигурационных файлов | 372 Пример использования hostname# machine reboot reboot in progress ...",
+    "relevant_chunk_ids": [
+      "04_35_1185"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "Как настроить программный перезапуск устройства по расписанию?",
+    "answer": "Справочник команд и конфигурационных файлов | 372 Пример использования hostname# machine reboot reboot in progress ...",
+    "relevant_chunk_ids": [
+      "04_35_1185"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Как настроить таймер перезагрузки для устройства?",
+    "answer": "Справочник команд и конфигурационных файлов | 372 Пример использования hostname# machine reboot reboot in progress ...",
+    "relevant_chunk_ids": [
+      "04_35_1185"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Можно ли задать автоматическую перезагрузку по расписанию?",
+    "answer": "Справочник команд и конфигурационных файлов | 372 Пример использования hostname# machine reboot reboot in progress ...",
+    "relevant_chunk_ids": [
+      "04_35_1185"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие действия необходимо выполнить после отключения кабеля синхронизации между узлами кластера?",
+    "answer": "Возврат к исходной версии в кластере 1 Убедитесь, что на обоих узлах запущена служба failoverd: hostname# failover show info 2 Выключите интерфейс синхронизации на обоих узлах кластера: hostname# inet ifconfig <интерфейс> down Затем отсоедините кабель синхронизации от узлов кластера.",
+    "relevant_chunk_ids": [
+      "02_39_1360"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) После disconnection синхронизационного кабеля что нужно сделать с узлами кластера?",
+    "answer": "Возврат к исходной версии в кластере 1 Убедитесь, что на обоих узлах запущена служба failoverd: hostname# failover show info 2 Выключите интерфейс синхронизации на обоих узлах кластера: hostname# inet ifconfig <интерфейс> down Затем отсоедините кабель синхронизации от узлов кластера.",
+    "relevant_chunk_ids": [
+      "02_39_1360"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Как дальше действовать после откючения sync кабеля между узлами?",
+    "answer": "Возврат к исходной версии в кластере 1 Убедитесь, что на обоих узлах запущена служба failoverd: hostname# failover show info 2 Выключите интерфейс синхронизации на обоих узлах кластера: hostname# inet ifconfig <интерфейс> down Затем отсоедините кабель синхронизации от узлов кластера.",
+    "relevant_chunk_ids": [
+      "02_39_1360"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Нужно ли что-то делать после того как отключили кабель синхронизации между узлами кластера?",
+    "answer": "Возврат к исходной версии в кластере 1 Убедитесь, что на обоих узлах запущена служба failoverd: hostname# failover show info 2 Выключите интерфейс синхронизации на обоих узлах кластера: hostname# inet ifconfig <интерфейс> down Затем отсоедините кабель синхронизации от узлов кластера.",
+    "relevant_chunk_ids": [
+      "02_39_1360"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какой синтаксис используется для просмотра информации о текущем режиме шифрования для конкретного узла ViPNet?",
+    "answer": "Пример использования hostname# iplir show authentication-type Current authentication mode: password iplir show ciphertype Просмотреть информацию о текущем режиме шифрования для сети или отдельного узла ViPNet.",
+    "relevant_chunk_ids": [
+      "04_35_1052"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какая команда используется для проверки текущего шифровального режима на определённом узле ViPNet?",
+    "answer": "Пример использования hostname# iplir show authentication-type Current authentication mode: password iplir show ciphertype Просмотреть информацию о текущем режиме шифрования для сети или отдельного узла ViPNet.",
+    "relevant_chunk_ids": [
+      "04_35_1052"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Тип команды для просмотра шифрования на узле VIPN - что это?",
+    "answer": "Пример использования hostname# iplir show authentication-type Current authentication mode: password iplir show ciphertype Просмотреть информацию о текущем режиме шифрования для сети или отдельного узла ViPNet.",
+    "relevant_chunk_ids": [
+      "04_35_1052"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как узнать, какое шифрование используется на данном узле ViPNet?",
+    "answer": "Пример использования hostname# iplir show authentication-type Current authentication mode: password iplir show ciphertype Просмотреть информацию о текущем режиме шифрования для сети или отдельного узла ViPNet.",
+    "relevant_chunk_ids": [
+      "04_35_1052"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие файлы были проверены на целостность и какие результаты получены по каждому из них?",
+    "answer": "Пример использования hostname# admin show check integrity status Sat Feb 13 02:18:31 YEKT 2024 Total: 1 PRG files checked, 1 checks passed, 0 checks failed 188 files checked, 188 checks passed, 0 files corrupted, 0 checks failed Check file bzImage successfully Check file initramfs-va successfully\n\nViPNet Coordinator HW 5.",
+    "relevant_chunk_ids": [
+      "04_11_0024"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какие файлы прошли проверку на целостность, и каковы результаты для каждого?",
+    "answer": "Пример использования hostname# admin show check integrity status Sat Feb 13 02:18:31 YEKT 2024 Total: 1 PRG files checked, 1 checks passed, 0 checks failed 188 files checked, 188 checks passed, 0 files corrupted, 0 checks failed Check file bzImage successfully Check file initramfs-va successfully\n\nViPNet Coordinator HW 5.",
+    "relevant_chunk_ids": [
+      "04_11_0024"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чекнул файлы на целостность, а что там за результики?",
+    "answer": "Пример использования hostname# admin show check integrity status Sat Feb 13 02:18:31 YEKT 2024 Total: 1 PRG files checked, 1 checks passed, 0 checks failed 188 files checked, 188 checks passed, 0 files corrupted, 0 checks failed Check file bzImage successfully Check file initramfs-va successfully\n\nViPNet Coordinator HW 5.",
+    "relevant_chunk_ids": [
+      "04_11_0024"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Не могли бы вы проверить целостность файлов и сообщить результаты?",
+    "answer": "Пример использования hostname# admin show check integrity status Sat Feb 13 02:18:31 YEKT 2024 Total: 1 PRG files checked, 1 checks passed, 0 checks failed 188 files checked, 188 checks passed, 0 files corrupted, 0 checks failed Check file bzImage successfully Check file initramfs-va successfully\n\nViPNet Coordinator HW 5.",
+    "relevant_chunk_ids": [
+      "04_11_0024"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие типы пакетов могут быть заблокированы фильтром открытой сети и каким ответом может сопровождаться такая блокировка?",
+    "answer": "заблокирован фильтром антиспуфинга 34 Локальный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 35 Транзитный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 36 IP-пакет заблокирован фильтром для туннелируемых узлов с ICMP или TCP RST ответом 37 Пакет заблокирован фильтром туннелируемых ресурсов",
+    "relevant_chunk_ids": [
+      "02_39_1537"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какие данные могут быть отфильтрованы сетевым экраном, и каким образом система реагирует на отфильтрованные данные?",
+    "answer": "заблокирован фильтром антиспуфинга 34 Локальный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 35 Транзитный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 36 IP-пакет заблокирован фильтром для туннелируемых узлов с ICMP или TCP RST ответом 37 Пакет заблокирован фильтром туннелируемых ресурсов",
+    "relevant_chunk_ids": [
+      "02_39_1537"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чо блокируется файерволлом и чо за ответ при блокировке?",
+    "answer": "заблокирован фильтром антиспуфинга 34 Локальный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 35 Транзитный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 36 IP-пакет заблокирован фильтром для туннелируемых узлов с ICMP или TCP RST ответом 37 Пакет заблокирован фильтром туннелируемых ресурсов",
+    "relevant_chunk_ids": [
+      "02_39_1537"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Нужно либо пропускать, либо блокировать трафик, что за сообщение получит клиент в случае блокировки?",
+    "answer": "заблокирован фильтром антиспуфинга 34 Локальный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 35 Транзитный IP-пакет заблокирован фильтром открытой сети с ICMP или TCP RST ответом 36 IP-пакет заблокирован фильтром для туннелируемых узлов с ICMP или TCP RST ответом 37 Пакет заблокирован фильтром туннелируемых ресурсов",
+    "relevant_chunk_ids": [
+      "02_39_1537"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Что означает символ \"*\", стоящий после Local GR Mode?",
+    "answer": "Справочник команд и конфигурационных файлов | 105 Address families by peer: none Graceful restart information: End-of-RIB send: IPv4 Unicast End-of-RIB received: IPv4 Unicast Local GR Mode: Helper* Remote GR Mode: Helper R bit: True Timers: Configured Restart Time(sec): 120 Received Restart Time(sec): 120 IPv4 Unicast: F bit: False End-of-RIB sent: Yes End-of-RIB sent after update: No End-of-RIB received: Yes Timers: Configured Stale Path Time(sec): 360 Message statistics:",
+    "relevant_chunk_ids": [
+      "04_35_0267"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Как интерпретировать звездочку после Local GR Mode?",
+    "answer": "Справочник команд и конфигурационных файлов | 105 Address families by peer: none Graceful restart information: End-of-RIB send: IPv4 Unicast End-of-RIB received: IPv4 Unicast Local GR Mode: Helper* Remote GR Mode: Helper R bit: True Timers: Configured Restart Time(sec): 120 Received Restart Time(sec): 120 IPv4 Unicast: F bit: False End-of-RIB sent: Yes End-of-RIB sent after update: No End-of-RIB received: Yes Timers: Configured Stale Path Time(sec): 360 Message statistics:",
+    "relevant_chunk_ids": [
+      "04_35_0267"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чем обозначается тик после Локальный Резервный режим?",
+    "answer": "Справочник команд и конфигурационных файлов | 105 Address families by peer: none Graceful restart information: End-of-RIB send: IPv4 Unicast End-of-RIB received: IPv4 Unicast Local GR Mode: Helper* Remote GR Mode: Helper R bit: True Timers: Configured Restart Time(sec): 120 Received Restart Time(sec): 120 IPv4 Unicast: F bit: False End-of-RIB sent: Yes End-of-RIB sent after update: No End-of-RIB received: Yes Timers: Configured Stale Path Time(sec): 360 Message statistics:",
+    "relevant_chunk_ids": [
+      "04_35_0267"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как настроить резервное переключение при звездочке в Local GR Mode?",
+    "answer": "Справочник команд и конфигурационных файлов | 105 Address families by peer: none Graceful restart information: End-of-RIB send: IPv4 Unicast End-of-RIB received: IPv4 Unicast Local GR Mode: Helper* Remote GR Mode: Helper R bit: True Timers: Configured Restart Time(sec): 120 Received Restart Time(sec): 120 IPv4 Unicast: F bit: False End-of-RIB sent: Yes End-of-RIB sent after update: No End-of-RIB received: Yes Timers: Configured Stale Path Time(sec): 360 Message statistics:",
+    "relevant_chunk_ids": [
+      "04_35_0267"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какие модели ViPNet Coordinator HW поддерживают подключение к мобильной сети 3G/4G по протоколу PPP?",
+    "answer": "Настройка с помощью веб-интерфейса | 25 Подключение к мобильной сети 3G/4G Подключение к мобильной сети 3G/4G по протоколу PPP доступно на исполнениях со встроенным модемом:  ViPNet Coordinator HW50 А, B на аппаратной платформе HW50 N3;  ViPNet Coordinator HW100 C на аппаратной платформе HW100 N3.",
+    "relevant_chunk_ids": [
+      "03_11_0029"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) В каких моделях ViPNet Coordinator HW реализовано подключение через 3G/4G по PPP?",
+    "answer": "Настройка с помощью веб-интерфейса | 25 Подключение к мобильной сети 3G/4G Подключение к мобильной сети 3G/4G по протоколу PPP доступно на исполнениях со встроенным модемом:  ViPNet Coordinator HW50 А, B на аппаратной платформе HW50 N3;  ViPNet Coordinator HW100 C на аппаратной платформе HW100 N3.",
+    "relevant_chunk_ids": [
+      "03_11_0029"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чем отличаются модели ViPNet Coordinator HW по поддержке 3G/4G PPP?",
+    "answer": "Настройка с помощью веб-интерфейса | 25 Подключение к мобильной сети 3G/4G Подключение к мобильной сети 3G/4G по протоколу PPP доступно на исполнениях со встроенным модемом:  ViPNet Coordinator HW50 А, B на аппаратной платформе HW50 N3;  ViPNet Coordinator HW100 C на аппаратной платформе HW100 N3.",
+    "relevant_chunk_ids": [
+      "03_11_0029"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как настроить 3G/4G PPP для ViPNet Coordinator HW?",
+    "answer": "Настройка с помощью веб-интерфейса | 25 Подключение к мобильной сети 3G/4G Подключение к мобильной сети 3G/4G по протоколу PPP доступно на исполнениях со встроенным модемом:  ViPNet Coordinator HW50 А, B на аппаратной платформе HW50 N3;  ViPNet Coordinator HW100 C на аппаратной платформе HW100 N3.",
+    "relevant_chunk_ids": [
+      "03_11_0029"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какова потребляемая мощность устройства при максимальной загрузке с учетом использованием всех 4 портов SFP+ на полную мощность?",
+    "answer": "Характеристики HW2000 Q4 Характеристика Описание Форм-фактор 19” Rack 1U, укороченный корпус Размеры корпуса (ШхВхГ) 444 x 44 x 380 мм Масса 8 кг Блок питания 500 Вт, 100-127 В/200-240 В Потребляемая мощность 310 Вт Порты Ethernet RJ45 4 x 1 Гбит/с Порты Ethernet SFP+ 4 x 10 Гбит/с Порты ввода-вывода VGA Консольный порт (DB9-M) PS/2-порт для подключения клавиатуры или мыши 2 x USB 3.0 Дополнительное оборудование Кабель питания CEE 7/7 Schuko - IEC-320-C13 Комплект для крепления в стойку <image: DeviceRGB, width: 1361, height: 304, bpc: 8> Рисунок 20.",
+    "relevant_chunk_ids": [
+      "01_30_0054"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какой уровень энергопотребления у аппарата в условиях максимальной нагрузки, если все 4 интерфейса SFP+ работают на полную мощность?",
+    "answer": "Характеристики HW2000 Q4 Характеристика Описание Форм-фактор 19” Rack 1U, укороченный корпус Размеры корпуса (ШхВхГ) 444 x 44 x 380 мм Масса 8 кг Блок питания 500 Вт, 100-127 В/200-240 В Потребляемая мощность 310 Вт Порты Ethernet RJ45 4 x 1 Гбит/с Порты Ethernet SFP+ 4 x 10 Гбит/с Порты ввода-вывода VGA Консольный порт (DB9-M) PS/2-порт для подключения клавиатуры или мыши 2 x USB 3.0 Дополнительное оборудование Кабель питания CEE 7/7 Schuko - IEC-320-C13 Комплект для крепления в стойку <image: DeviceRGB, width: 1361, height: 304, bpc: 8> Рисунок 20.",
+    "relevant_chunk_ids": [
+      "01_30_0054"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Какая мощность потребляет девайс при полной загрузке и активном использовании всех 4х SFP+?",
+    "answer": "Характеристики HW2000 Q4 Характеристика Описание Форм-фактор 19” Rack 1U, укороченный корпус Размеры корпуса (ШхВхГ) 444 x 44 x 380 мм Масса 8 кг Блок питания 500 Вт, 100-127 В/200-240 В Потребляемая мощность 310 Вт Порты Ethernet RJ45 4 x 1 Гбит/с Порты Ethernet SFP+ 4 x 10 Гбит/с Порты ввода-вывода VGA Консольный порт (DB9-M) PS/2-порт для подключения клавиатуры или мыши 2 x USB 3.0 Дополнительное оборудование Кабель питания CEE 7/7 Schuko - IEC-320-C13 Комплект для крепления в стойку <image: DeviceRGB, width: 1361, height: 304, bpc: 8> Рисунок 20.",
+    "relevant_chunk_ids": [
+      "01_30_0054"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Возможен ли запуск всех 4х SFP+ на максимум без перегрева устройства?",
+    "answer": "Характеристики HW2000 Q4 Характеристика Описание Форм-фактор 19” Rack 1U, укороченный корпус Размеры корпуса (ШхВхГ) 444 x 44 x 380 мм Масса 8 кг Блок питания 500 Вт, 100-127 В/200-240 В Потребляемая мощность 310 Вт Порты Ethernet RJ45 4 x 1 Гбит/с Порты Ethernet SFP+ 4 x 10 Гбит/с Порты ввода-вывода VGA Консольный порт (DB9-M) PS/2-порт для подключения клавиатуры или мыши 2 x USB 3.0 Дополнительное оборудование Кабель питания CEE 7/7 Schuko - IEC-320-C13 Комплект для крепления в стойку <image: DeviceRGB, width: 1361, height: 304, bpc: 8> Рисунок 20.",
+    "relevant_chunk_ids": [
+      "01_30_0054"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "Какой статус имеет последнее обновление текущей базы правил IPS и когда это произошло?",
+    "answer": "автоматическое включение при перезапуске ViPNet Coordinator HW: o autostart is on — разрешено; o autostart is off — запрещено;  ошибки (строка выводится, если есть ошибки в работе предотвращения вторжений);  уровень событий, регистрируемых в системном журнале ViPNet Coordinator HW;  дата и время создания текущей базы правил IPS;  статус (успешно или не успешно), дату и время последнего обновления текущей базы правил IPS.",
+    "relevant_chunk_ids": [
+      "02_39_1039"
+    ],
+    "query_type": "literal"
+  },
+  {
+    "question": "1) Какой актуальный статус у последнего обновления базы правил IPS и когда это было?",
+    "answer": "автоматическое включение при перезапуске ViPNet Coordinator HW: o autostart is on — разрешено; o autostart is off — запрещено;  ошибки (строка выводится, если есть ошибки в работе предотвращения вторжений);  уровень событий, регистрируемых в системном журнале ViPNet Coordinator HW;  дата и время создания текущей базы правил IPS;  статус (успешно или не успешно), дату и время последнего обновления текущей базы правил IPS.",
+    "relevant_chunk_ids": [
+      "02_39_1039"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "2) Чему равен статус последнего IPS-обновления и когда оно заточено?",
+    "answer": "автоматическое включение при перезапуске ViPNet Coordinator HW: o autostart is on — разрешено; o autostart is off — запрещено;  ошибки (строка выводится, если есть ошибки в работе предотвращения вторжений);  уровень событий, регистрируемых в системном журнале ViPNet Coordinator HW;  дата и время создания текущей базы правил IPS;  статус (успешно или не успешно), дату и время последнего обновления текущей базы правил IPS.",
+    "relevant_chunk_ids": [
+      "02_39_1039"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  },
+  {
+    "question": "3) Как сделать проверку свежести базы правил IPS и узнать дату обновления?",
+    "answer": "автоматическое включение при перезапуске ViPNet Coordinator HW: o autostart is on — разрешено; o autostart is off — запрещено;  ошибки (строка выводится, если есть ошибки в работе предотвращения вторжений);  уровень событий, регистрируемых в системном журнале ViPNet Coordinator HW;  дата и время создания текущей базы правил IPS;  статус (успешно или не успешно), дату и время последнего обновления текущей базы правил IPS.",
+    "relevant_chunk_ids": [
+      "02_39_1039"
+    ],
+    "query_type": "paraphrase_or_scenario"
+  }
+]
