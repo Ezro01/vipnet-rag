@@ -91,7 +91,7 @@ cp .env.example .env
 
 - **YANDEX_CLOUD_FOLDER** — идентификатор каталога Yandex Cloud.
 - **YANDEX_CLOUD_API_KEY** — API-ключ.
-- **YANDEX_CLOUD_MODEL** — идентификатор модели (например `qwen2.5-7b-instruct/latest`).
+- **YANDEX_CLOUD_MODEL** — идентификатор модели (например `qwen2.5-7b-instruct/<instance-id>`).
 
 Подробнее: [docs/YANDEX_CLOUD_MODEL.md](docs/YANDEX_CLOUD_MODEL.md).
 
@@ -177,7 +177,7 @@ python -m rag_benchmark.run_all --samples 30 --e2e-limit 20 --eval-mode all --ou
 | **RAG_RERANKER_MODEL** | Модель реранкера | `BAAI/bge-reranker-v2-m3` |
 | **YANDEX_CLOUD_FOLDER** | Каталог Yandex Cloud | — |
 | **YANDEX_CLOUD_API_KEY** | API-ключ Yandex Cloud | — |
-| **YANDEX_CLOUD_MODEL** | Модель LLM | `qwen2.5-7b-instruct/latest` |
+| **YANDEX_CLOUD_MODEL** | Модель LLM | `qwen2.5-7b-instruct/<instance-id>` |
 | **API_HOST**, **API_PORT** | Хост и порт FastAPI | `0.0.0.0`, `8000` |
 
 Остальные параметры (TOP_K_*, RRF, кэш и т.д.) заданы в `config.py` и при необходимости переопределяются через окружение.
